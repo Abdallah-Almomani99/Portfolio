@@ -73,7 +73,7 @@ p {
     .div6 { grid-area: 2 / 3 / 5 / 5; }
 
 .first{
-    height: 592px;
+    height: 100vh;
     background: linear-gradient(90deg, rgba(72,49,212,1) 67%, rgba(204,243,129,1) 67%);
 }
 .big-text{
@@ -98,12 +98,15 @@ p {
     list-style: none;
     
 }
-.nav-item{
+
+.nav-item a{
     padding: 6px 10px;
+    text-decoration: none;
     color: #4831D4 ;
     font-weight: 700;
 }
-.nav-item:hover{
+.nav-item:hover a{
+    text-decoration: none;
     color: #CCF381;
     background-color: #4831D4;
     border-radius: 50%;
