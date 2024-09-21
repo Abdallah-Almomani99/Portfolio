@@ -157,14 +157,11 @@ p {
   font-weight: 400;
 }
 .mypic {
-  width: 450px;
-  height: 400px;
-  max-width: 60%;
   margin-left: 100px;
+  border-radius: 35%;
 }
 .div6 {
   display: grid;
-  align-items: center;
   justify-content: center;
 }
 .nav-end{
