@@ -9,7 +9,7 @@
 }
 
 html {
-  scroll-behavior:initial;
+  scroll-behavior:smooth;
 }
 
 body {
@@ -245,7 +245,6 @@ p {
   padding-right: 10%;
   padding-top: 14%;
 }
-
 /* ---------------------- section 4 ----------------------- */
 
 .fourth {
@@ -303,6 +302,7 @@ p {
 .border-sec4 {
   padding: 6%;
 }
+
 /* ---------------------- section 5 ----------------------- */
 .five{
   height: 100vh;
@@ -395,6 +395,35 @@ p {
   display: flex;
   align-items: center;
   font-size: 30px;
+}
+.mainfooter{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.green{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+.red{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.red:hover{
+  background-color: yellow;
+}
+.black{
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+.blue{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
 }
 
 .footer-bot ul {
